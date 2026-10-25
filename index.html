@@ -1,0 +1,82 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>爸爸的生日惊喜</title><style>
+:root{--ink:#465752;--light:#f7f8f6;--sage:#dfe8e3;--line:#dce4df}*{box-sizing:border-box}body{margin:0;background:#e9efeb;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft Yahei",sans-serif;color:var(--ink)}main{max-width:460px;min-height:100dvh;margin:auto;background:var(--light);position:relative;overflow:hidden;transition:background .65s,color .65s;padding:76px 23px 48px;text-align:center}main.dark{background:#121719;color:#f2f2ee}.nav{position:absolute;top:0;left:0;right:0;padding:calc(env(safe-area-inset-top) + 15px) 22px 10px;display:flex;justify-content:space-between;z-index:10}.nav button{width:42px;height:39px;border-radius:13px;background:#ffffffa8;border:1px solid #d6dfd9;color:#50605b;font-size:24px;cursor:pointer}.nav button:disabled{opacity:.25}.dark .nav button{background:#303a3b;color:#eee;border-color:#53605c}.eyebrow{font-size:11px;letter-spacing:3px;opacity:.65;margin:12px 0 22px}h1{font-size:27px;letter-spacing:2px;font-weight:450;line-height:1.6;margin:10px 0 15px}p{line-height:1.9;margin:12px 0} .muted{font-size:13px;opacity:.76}.stage{height:295px;position:relative;display:flex;align-items:center;justify-content:center}.cake{font-size:133px;filter:saturate(.8);transition:filter .7s}.dark .cake{filter:drop-shadow(0 0 20px #e7ab5288)}.btn{font-size:15px;color:#fff;background:#647b73;border:0;border-radius:30px;padding:14px 22px;margin:12px 4px;cursor:pointer;max-width:100%;min-height:47px}.btn.secondary{background:transparent;border:1px solid #9aaca4;color:inherit}.dark .btn{background:#dbe8e1;color:#24342f}.dark .btn.secondary{background:transparent;color:#eee}.dots{display:flex;gap:7px;justify-content:center;margin-top:27px}.dot{height:5px;width:25px;background:#d4dfd9;border-radius:5px}.dot.on{background:#6e8b80}.scene{animation:fade .45s ease}@keyframes fade{from{opacity:.2;transform:translateY(9px)}to{opacity:1;transform:none}}.audio-panel{position:relative;margin:6px auto 18px;max-width:340px;padding:16px 16px 10px;border:1px solid #52605e77;border-radius:18px;background:#ffffff10}.wave{width:100%;height:54px;display:block}.time{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums;font-size:12px;opacity:.8}.seek{width:100%;accent-color:#a6bfb3;cursor:pointer;margin:12px 0 7px}.song-wrap{margin-top:-3px}.audio-controls{display:flex;gap:9px;justify-content:center;align-items:center;margin:4px 0 10px}.audio-controls button{min-height:43px;border-radius:24px;border:1px solid #a8bdb3;padding:9px 17px;font-size:14px;background:#e1eae4;color:#354b41;cursor:pointer}.dark .audio-controls button{background:#dce8e1;color:#24342f}.audio-panel{margin-top:9px}.audio-panel .audio-controls{margin-top:0}.map{position:relative;margin:12px auto;width:100%;max-width:370px}.map svg{width:100%;height:auto}.plane{position:absolute;left:8%;top:62%;font-size:27px;animation:fly 5s ease-in-out both}@keyframes fly{0%{left:8%;top:62%;transform:rotate(-25deg)}55%{left:47%;top:20%;transform:rotate(8deg)}100%{left:86%;top:58%;transform:rotate(26deg)}}.giftbox{width:196px;height:158px;position:relative;margin:auto;animation:float 2s ease-in-out infinite alternate}.giftbox .base{position:absolute;bottom:4px;left:15px;width:166px;height:115px;border-radius:5px;background:#e4e9e5;border:1px solid #b5c4bc;box-shadow:0 14px 30px #596c601c}.giftbox .base:before{content:'';position:absolute;left:72px;top:0;bottom:0;width:22px;background:#a8c1b4}.giftbox .lid{position:absolute;left:3px;top:20px;width:190px;height:40px;background:#d2ded7;border:1px solid #a9bdb0;border-radius:4px;transform-origin:12% 100%;transition:transform 1.2s}.giftbox .lid:after{content:'';position:absolute;left:82px;width:24px;top:0;bottom:0;background:#a8c1b4}.giftbox.open .lid{transform:translate(-14px,-85px) rotate(-22deg)}.product{display:block;max-width:80%;max-height:225px;object-fit:contain;margin:auto;border-radius:14px;animation:up 1.2s ease both}@keyframes up{from{opacity:0;transform:translateY(55px) scale(.7)}to{opacity:1;transform:none}}@keyframes float{to{transform:translateY(-6px)}}.card{padding:15px;border:1px solid var(--line);background:#fff;border-radius:20px}.person{font-size:75px}.mirror{width:225px;height:230px;border:9px solid #d8e1dd;border-radius:110px 110px 13px 13px;box-shadow:inset 0 0 28px #e1ebe8;margin:auto;display:grid;place-items:center;background:#f4f7f5;position:relative}.mirror .person{animation:pose 1.9s ease-in-out infinite alternate}@keyframes pose{to{transform:rotate(7deg) scale(1.05)}}.spark{position:absolute;font-size:27px;animation:shine .7s infinite alternate}@keyframes shine{to{opacity:.25;transform:scale(.7)}}.photo{width:82%;max-height:320px;object-fit:cover;border-radius:14px;box-shadow:0 13px 30px #64756d22}.phone{font-size:88px;animation:float 1s infinite alternate}.blessing{font-size:17px;line-height:2.25;letter-spacing:.3px}.confetti{position:absolute;top:-18px;width:7px;height:13px;animation:fall 2.4s linear forwards;pointer-events:none}@keyframes fall{to{transform:translateY(105vh) rotate(690deg);opacity:0}}@media(prefers-reduced-motion:reduce){.plane,.person,.phone,.spark{animation:none!important}}
+.audio-panel .wave{height:60px;max-width:100%;margin:4px auto 8px}.audio-status{font-size:12px;opacity:.75;margin:0 0 6px}.audio-panel .seek{display:block;appearance:none;-webkit-appearance:none;height:7px;border-radius:8px;background:linear-gradient(to right,#91b8a5 var(--progress,0%),#cbd7d1 var(--progress,0%));margin:9px 0 10px}.audio-panel .seek::-webkit-slider-thumb{-webkit-appearance:none;width:17px;height:17px;border-radius:50%;background:#83aa98;border:2px solid #f7faf7;box-shadow:0 0 0 1px #7b9d8e}.audio-panel .seek::-moz-range-thumb{width:14px;height:14px;border-radius:50%;background:#83aa98;border:2px solid #f7faf7}.audio-controls button:first-child{font-size:13px;white-space:nowrap}.audio-panel .time{font-size:13px;font-weight:600;opacity:1}</style></head><body><main id="app"><div class="nav"><button id="back" aria-label="返回上一页">‹</button><button id="next" aria-label="前往下一页">›</button></div><div id="scene" class="scene"></div><div class="dots" id="dots"></div></main><audio id="song" preload="metadata" src="assets/birthday-song.mp3"></audio><audio id="voice" preload="metadata" src="assets/blessing.mp3"></audio><script>
+const app=document.getElementById('app'),scene=document.getElementById('scene'),dots=document.getElementById('dots'),song=document.getElementById('song'),voice=document.getElementById('voice');
+// 每个页面有独立状态，前进/后退和按钮统一使用页面索引管理。
+const pages=['intro','song','wish','flight','box','jacket','handoff','mirror','phone','ending'];let index=0,phoneCtx=null,phoneFiltered=false,activeAudio=null,raf=0,opening=false;
+const $=s=>document.querySelector(s);function stopAll(){for(const a of [song,voice]){a.pause();a.currentTime=0}activeAudio=null;cancelAnimationFrame(raf)}
+function setPage(n){if(n<0||n>=pages.length)return;stopAll();index=n;render();if(n===1){song.currentTime=0;playAudio(song)}}
+$('#back').onclick=()=>setPage(index-1);$('#next').onclick=()=>setPage(index+1);
+function button(label,fn,secondary=false){const b=document.createElement('button');b.className='btn'+(secondary?' secondary':'');b.textContent=label;b.onclick=fn;scene.appendChild(b)}
+function add(s){scene.insertAdjacentHTML('beforeend',s)}
+function format(s){if(!isFinite(s))return '0:00';return Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0')}
+function soundOn(){// 短促开灯音效，无需联网加载
+try{const C=window.AudioContext||window.webkitAudioContext;const c=new C(),o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.setValueAtTime(670,c.currentTime);o.frequency.exponentialRampToValueAtTime(920,c.currentTime+.09);g.gain.setValueAtTime(.0001,c.currentTime);g.gain.exponentialRampToValueAtTime(.09,c.currentTime+.012);g.gain.exponentialRampToValueAtTime(.0001,c.currentTime+.18);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.19);o.onended=()=>c.close()}catch(e){}}
+function confetti(){for(let i=0;i<50;i++){const el=document.createElement('i');el.className='confetti';el.style.left=Math.random()*100+'%';el.style.background=['#b9cbc2','#cbdfe6','#e7d8d8','#cfd7c9'][i%4];el.style.animationDelay=Math.random()*.7+'s';app.appendChild(el);setTimeout(()=>el.remove(),3200)}}
+// 通过音频事件更新进度，避免动画帧被取消后时间停在 0:00。
+const audioBound=new WeakSet();
+function syncAudio(a){
+ const expected=index===1?song:index===9?voice:null;
+ if(expected!==a)return;
+ const duration=Number.isFinite(a.duration)&&a.duration>0?a.duration:0;
+ const current=Number.isFinite(a.currentTime)?a.currentTime:0;
+ const progress=duration?Math.min(1,Math.max(0,current/duration)):0;
+ const seek=$('#seek'),cur=$('#current'),dur=$('#duration');
+ if(seek&&!seek.dataset.dragging){seek.value=String(Math.round(progress*1000));seek.style.setProperty('--progress',(progress*100).toFixed(2)+'%')}
+ if(cur)cur.textContent=format(current);
+ if(dur)dur.textContent=duration?format(duration):'0:00';
+ const state=$('#audio-state');if(state)state.textContent=a.ended?'播放结束':a.paused?'已暂停':'正在播放';
+ const cv=$('#wave');if(cv){
+  const ctx=cv.getContext('2d');if(ctx){
+   const w=320,h=60;cv.width=w;cv.height=h;ctx.clearRect(0,0);
+   for(let i=0;i<60;i++){
+    const t=i/60;
+    const amplitude=7+37*(.18+.82*Math.abs(Math.sin(i*1.83)*Math.cos(i*.29)));
+    ctx.fillStyle=t<=progress?'#a9d4bf':(index===1?'#81948e':'#b0c3b8');
+    ctx.beginPath();ctx.roundRect?ctx.roundRect(i*5.28+1,(h-amplitude)/2,3.1,amplitude,1.55):ctx.rect(i*5.28+1,(h-amplitude)/2,3.1,amplitude);
+    ctx.fill();
+   }
+  }
+ }
+}
+function ensureAudioEvents(a){
+ if(audioBound.has(a))return;
+ audioBound.add(a);
+ ['loadedmetadata','durationchange','timeupdate','seeking','seeked','play','playing','pause','ended','canplay'].forEach(type=>a.addEventListener(type,()=>syncAudio(a)));
+}
+function playAudio(a){
+ ensureAudioEvents(a);
+ if(a===voice&&phoneCtx&&phoneCtx.state==='suspended')phoneCtx.resume().catch(()=>{});
+ if(activeAudio&&activeAudio!==a)activeAudio.pause();
+ activeAudio=a;
+ const promise=a.play();
+ if(promise&&promise.catch)promise.catch(()=>{const m=$('#audio-msg');if(m)m.textContent='音频未能自动播放，请点击播放按钮重试。'});
+ syncAudio(a);
+}
+function audioPanel(a){
+ ensureAudioEvents(a);
+ add('<div class="audio-panel"><div class="audio-controls"><button type="button" id="audio-toggle" aria-label="播放或暂停">▶ 播放 / Ⅱ 暂停</button><button type="button" id="audio-restart" aria-label="从头重播">↻ 从头重播</button></div><p class="audio-status" id="audio-state" aria-live="polite">准备播放</p><canvas class="wave" id="wave" width="320" height="60" aria-label="随播放进度变化的音频波形"></canvas><input class="seek" id="seek" type="range" min="0" max="1000" value="0" aria-label="拖动音频播放进度"><div class="time"><span id="current">0:00</span><span id="duration">0:00</span></div></div><p id="audio-msg" class="muted" role="status"></p>');
+ $('#audio-toggle').onclick=()=>{if(a.paused){if(a.ended)a.currentTime=0;playAudio(a)}else{a.pause();syncAudio(a)}};
+ $('#audio-restart').onclick=()=>{a.pause();a.currentTime=0;playAudio(a)};
+ const seek=$('#seek');
+ seek.addEventListener('pointerdown',()=>seek.dataset.dragging='1');
+ seek.addEventListener('pointerup',()=>{delete seek.dataset.dragging;syncAudio(a)});
+ seek.addEventListener('change',()=>{delete seek.dataset.dragging;syncAudio(a)});
+ seek.addEventListener('input',e=>{if(Number.isFinite(a.duration)&&a.duration>0){a.currentTime=a.duration*Number(e.target.value)/1000;syncAudio(a)}});
+ syncAudio(a);
+}
+function filterVoice(){if(phoneFiltered)return;try{const C=window.AudioContext||window.webkitAudioContext;phoneCtx=new C();const source=phoneCtx.createMediaElementSource(voice),hp=phoneCtx.createBiquadFilter(),lp=phoneCtx.createBiquadFilter();hp.type='highpass';hp.frequency.value=270;lp.type='lowpass';lp.frequency.value=3500;source.connect(hp);hp.connect(lp);lp.connect(phoneCtx.destination);phoneFiltered=true;phoneCtx.resume()}catch(e){/* 保留原声播放，避免滤镜故障导致静音 */}}
+function render(){scene.innerHTML='';scene.className='scene';app.classList.toggle('dark',index===1);$('#back').disabled=index===0;$('#next').disabled=index===pages.length-1;dots.innerHTML=pages.map((_,i)=>'<span class="dot '+(i<=index?'on':'')+'"></span>').join('');const pg=pages[index];
+if(pg==='intro'){add('<div class="eyebrow">一份来自纽约的生日心意</div><h1>爸爸，生日快乐！</h1><p>今天，我们先一起许个愿。</p><div class="stage"><div class="cake">🎂</div></div>');button('关灯，开始唱生日歌',()=>setPage(1))}
+if(pg==='song'){add('<h1>爸爸，生日快乐！</h1><div class="stage" style="height:205px"><div class="cake">🎂</div></div><div class="song-wrap"><p class="muted">听听朵朵为你唱的生日歌 ♡</p></div>');audioPanel(song);button('我已许愿，蜡烛吹好了，开灯',()=>{soundOn();setPage(2);confetti()})}
+if(pg==='wish'){add('<h1>愿望已经悄悄收藏好 ♡</h1><div class="stage" style="font-size:80px">🎂</div><p>新的一岁，愿所有美好都如期而至。</p>');button('看看接下来的惊喜',()=>setPage(3))}
+if(pg==='flight'){add('<div class="eyebrow">一份来自纽约的特别快递</div><h1>纽约 → 杭州</h1><div class="map"><svg viewBox="0 0 360 255" aria-label="纽约飞往杭州的示意地图"><path d="M8 80 Q60 18 104 53 L119 89 94 119 102 156 76 211 45 193 48 150 15 130Z" fill="#dce8e3" stroke="#bbcdc3"/><path d="M188 34 Q243 5 337 40 L350 83 320 99 336 132 295 159 260 208 224 178 242 132 204 103Z" fill="#dce8e3" stroke="#bbcdc3"/><path d="M47 180 Q170 -8 310 174" fill="none" stroke="#7c9d90" stroke-width="2" stroke-dasharray="5 7"/><circle cx="47" cy="180" r="6" fill="#718f82"/><circle cx="310" cy="174" r="6" fill="#718f82"/><text x="20" y="221" font-size="16" fill="#465752">纽约</text><text x="286" y="216" font-size="16" fill="#465752">杭州</text><text x="137" y="234" font-size="11" fill="#899d95">跨越大洋</text></svg><span class="plane">✈️</span></div><p>跨越大洋，把朵朵的心意送到你身边。</p>');button('签收来自纽约的礼物',()=>setPage(4))}
+if(pg==='box'){add('<h1>给爸爸的一份礼物</h1><p class="muted">妈妈和朵朵一起准备的小惊喜</p><div class="stage"><div class="giftbox" id="gift"><div class="base"></div><div class="lid"></div></div></div><p>准备好拆礼物了吗？</p>');button('轻轻打开礼物盒',()=>{if(opening)return;opening=true;$('#gift').classList.add('open');setTimeout(()=>{opening=false;if(index===4)setPage(5)},1200)})}
+if(pg==='jacket'){add('<h1>礼物揭晓！</h1><div class="stage" style="height:270px"><img class="product" src="assets/gamma-black.jpg" alt="黑色始祖鸟 Gamma Hoody 夹克"></div><p>黑色始祖鸟 Gamma Hoody 连帽夹克</p><p style="font-size:14px">高端商务金融男必备的身份象征</p>');button('请妈妈把礼物交给爸爸',()=>setPage(6))}
+if(pg==='handoff'){add('<h1>现在，轮到现实中的爸爸啦</h1><div class="stage"><div class="card"><div class="person">👩🏻　👨🏻</div><p class="muted">妈妈把礼物递给爸爸 ♡</p></div></div><p>现在请从妈妈手中拆开礼物，<br>打开包装，穿上外套～</p>');button('我准备好变身啦',()=>setPage(7))}
+if(pg==='mirror'){add('<h1>爸爸的帅气变身时刻</h1><div class="stage"><div class="mirror"><span class="person">👨🏻‍💻</span><span class="spark" style="left:6px;top:32px">✨</span><span class="spark" style="right:5px;top:65px;animation-delay:.3s">✨</span><span class="spark" style="right:35px;bottom:10px;animation-delay:.5s">✧</span></div></div><p>照照镜子，今天也太帅了吧！✨</p><p class="muted">现实中的爸爸也穿好新外套了吗？</p>');button('试穿完成，我穿好啦！',()=>setPage(8))}
+if(pg==='phone'){add('<h1>有些话，想亲口对你说</h1><div class="stage" style="height:225px"><div class="phone">☎️</div></div><p>来自纽约的一通生日电话</p><p class="muted">请爸爸接听 ♡</p>');button('接听女儿的生日电话',()=>{setPage(9);filterVoice();playAudio(voice)})}
+if(pg==='ending'){add('<h1>爸爸，生日快乐！</h1><p class="blessing">愿你新的一岁，平安、健康、快乐。<br>虽然今年不能陪你一起过生日，<br>但我的爱一直都在～❤️</p><img class="photo" src="assets/daughter-dad.jpg" alt="女儿和爸爸的合照"><p class="muted">女儿的生日祝福语音</p>');audioPanel(voice);button('从头再体验一次',()=>setPage(0),true)}
+}
+render();
+</script></body></html>
